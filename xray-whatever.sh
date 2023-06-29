@@ -32,7 +32,7 @@ cat << EOF > /usr/local/etc/xray/config.json
         "decryption": "none",
         "fallbacks": [
           {
-            "dest": 80
+            "dest": 88
           },
           {
             "alpn": "h2",
@@ -78,7 +78,7 @@ cat << EOF > /usr/local/etc/xray/config.json
       }
     },
     {
-      "port": 80,
+      "port": 88,
       "protocol": "vmess",
       "settings": {
         "clients": [
